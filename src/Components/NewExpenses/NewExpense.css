@@ -1,0 +1,39 @@
+.expense {
+    background-color: #212122;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .expense button {
+    font: inherit;
+    cursor: pointer;
+    margin: 20px;
+    padding: 0.5rem  2rem;
+    background-color: #357bb4;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .expense button:hover,
+  .expense button:active {
+    background-color: #78bcf3;
+    border-color: #ffffff;
+  }
+  
+  .expense button.alternative {
+    color: #e76989;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .expense button.alternative:hover,
+  .expense button.alternative:active {
+    background-color: #ddb3f8;
+  }
